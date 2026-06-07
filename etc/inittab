@@ -1,0 +1,7 @@
+::sysinit:/bin/busybox --install -s /bin
+::sysinit:/bin/busybox sh -c "echo amberos > /proc/sys/kernel/hostname"
+::once:/bin/s6-svscan /etc/s6/sv
+tty0::respawn:/sbin/getty -n -l /bin/bash 38400 tty0
+::ctrlaltdel:/bin/busybox poweroff
+::shutdown:/bin/busybox umount -a -r
+::shutdown:/bin/busybox swapoff -a

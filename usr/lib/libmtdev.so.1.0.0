@@ -1,0 +1,8 @@
+bash
+neofetch
+openbox
+xf86-video-fbdev
+xf86-video-vesa
+xinit
+xorg-server
+xterm

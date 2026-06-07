@@ -1,0 +1,169 @@
+[    46.526] 
+X.Org X Server 1.21.1.12
+X Protocol Version 11, Revision 0
+[    46.534] Current Operating System: Linux amberos 6.6.60-Amberos-Version-1.4 #13 SMP Sat Jun  6 16:45:23 CEST 2026 x86_64
+[    46.534] Kernel command line: console=tty0 console=ttyS0 root=/dev/sda rw vga=788
+[    46.538]  
+[    46.542] Current version of pixman: 0.42.2
+[    46.546] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    46.546] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    46.554] (==) Log file: "/var/log/Xorg.1.log", Time: Sat Jun  6 14:52:01 2026
+[    46.558] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    46.562] (==) No Layout section.  Using the first Screen section.
+[    46.566] (==) No screen section available. Using defaults.
+[    46.566] (**) |-->Screen "Default Screen Section" (0)
+[    46.566] (**) |   |-->Monitor "<default monitor>"
+[    46.570] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    46.574] (**) Allowing byte-swapped clients
+[    46.574] (==) Automatically adding devices
+[    46.574] (==) Automatically enabling devices
+[    46.574] (==) Automatically adding GPU devices
+[    46.574] (==) Automatically binding GPU devices
+[    46.574] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    46.578] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/misc".
+[    46.578] 	Entry deleted from font path.
+[    46.578] 	(Run 'mkfontdir' on "/usr/share/fonts/misc").
+[    46.578] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/100dpi".
+[    46.578] 	Entry deleted from font path.
+[    46.578] 	(Run 'mkfontdir' on "/usr/share/fonts/100dpi").
+[    46.578] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/75dpi".
+[    46.578] 	Entry deleted from font path.
+[    46.578] 	(Run 'mkfontdir' on "/usr/share/fonts/75dpi").
+[    46.578] (WW) The directory "/usr/share/fonts/TTF" does not exist.
+[    46.578] 	Entry deleted from font path.
+[    46.578] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[    46.578] 	Entry deleted from font path.
+[    46.578] (==) FontPath set to:
+	
+[    46.578] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    46.582] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    46.582] (II) Module ABI versions:
+[    46.582] 	X.Org ANSI C Emulation: 0.4
+[    46.582] 	X.Org Video Driver: 25.2
+[    46.582] 	X.Org XInput driver : 24.4
+[    46.582] 	X.Org Server Extension : 10.0
+[    46.602] (--) PCI:*(0@0:2:0) 1234:1111:1af4:1100 rev 2, Mem @ 0xfd000000/16777216, 0xfebf0000/4096, BIOS @ 0x????????/131072
+[    46.602] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[    46.602] (II) LoadModule: "glx"
+[    46.614] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    46.654] (II) Module glx: vendor="X.Org Foundation"
+[    46.654] 	compiled for 1.21.1.12, module version = 1.0.0
+[    46.654] 	ABI class: X.Org Server Extension, version 10.0
+[    46.658] (==) Matched modesetting as autoconfigured driver 0
+[    46.658] (==) Matched fbdev as autoconfigured driver 1
+[    46.658] (==) Matched vesa as autoconfigured driver 2
+[    46.658] (==) Assigned the driver to the xf86ConfigLayout
+[    46.658] (II) LoadModule: "modesetting"
+[    46.662] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    46.666] (II) Module modesetting: vendor="X.Org Foundation"
+[    46.670] 	compiled for 1.21.1.12, module version = 1.21.1
+[    46.670] 	Module class: X.Org Video Driver
+[    46.670] 	ABI class: X.Org Video Driver, version 25.2
+[    46.670] (II) LoadModule: "fbdev"
+[    46.670] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    46.674] (II) Module fbdev: vendor="X.Org Foundation"
+[    46.674] 	compiled for 1.21.1.9, module version = 0.5.0
+[    46.674] 	Module class: X.Org Video Driver
+[    46.674] 	ABI class: X.Org Video Driver, version 25.2
+[    46.674] (II) LoadModule: "vesa"
+[    46.674] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    46.678] (II) Module vesa: vendor="X.Org Foundation"
+[    46.678] 	compiled for 1.21.1.9, module version = 2.6.0
+[    46.678] 	Module class: X.Org Video Driver
+[    46.678] 	ABI class: X.Org Video Driver, version 25.2
+[    46.678] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    46.678] (II) FBDEV: driver for framebuffer: fbdev
+[    46.678] (II) VESA: driver for VESA chipsets: vesa
+[    46.678] (++) using VT number 1
+
+[    46.682] xf86EnableIO: failed to enable I/O ports 0000-03ff (Function not implemented)
+[    46.682] (EE) open /dev/dri/card0: No such file or directory
+[    46.686] (WW) Falling back to old probe method for modesetting
+[    46.686] (EE) open /dev/dri/card0: No such file or directory
+[    46.686] (II) Loading sub module "fbdevhw"
+[    46.686] (II) LoadModule: "fbdevhw"
+[    46.686] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    46.690] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    46.690] 	compiled for 1.21.1.12, module version = 0.0.2
+[    46.690] 	ABI class: X.Org Video Driver, version 25.2
+[    46.690] (EE) Unable to find a valid framebuffer device
+[    46.690] (WW) Falling back to old probe method for fbdev
+[    46.690] (II) Loading sub module "fbdevhw"
+[    46.690] (II) LoadModule: "fbdevhw"
+[    46.690] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    46.690] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    46.690] 	compiled for 1.21.1.12, module version = 0.0.2
+[    46.690] 	ABI class: X.Org Video Driver, version 25.2
+[    46.694] (II) FBDEV(2): using default device
+[    46.694] vesa: Refusing to run, Framebuffer or dri device present
+[    46.698] (EE) Screen 0 deleted because of no matching config section.
+[    46.698] (II) UnloadModule: "modesetting"
+[    46.698] (EE) Screen 0 deleted because of no matching config section.
+[    46.698] (II) UnloadModule: "fbdev"
+[    46.698] (II) UnloadSubModule: "fbdevhw"
+[    46.702] (II) FBDEV(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 16/16
+[    46.702] (==) FBDEV(0): Depth 16, (==) framebuffer bpp 16
+[    46.702] (==) FBDEV(0): RGB weight 565
+[    46.702] (==) FBDEV(0): Default visual is TrueColor
+[    46.702] (==) FBDEV(0): Using gamma correction (1.0, 1.0, 1.0)
+[    46.702] (II) FBDEV(0): hardware: VESA VGA (video memory: 1875kB)
+[    46.702] (DB) xf86MergeOutputClassOptions unsupported bus type 0
+[    46.702] (II) FBDEV(0): checking modes against framebuffer device...
+[    46.702] (II) FBDEV(0): checking modes against monitor...
+[    46.702] (II) FBDEV(0): Virtual size is 800x600 (pitch 800)
+[    46.706] (**) FBDEV(0):  Built-in mode "current": 48.0 MHz, 46.9 kHz, 75.1 Hz
+[    46.706] (II) FBDEV(0): Modeline "current"x0.0   48.00  800 832 928 1024  600 604 608 624 -hsync -vsync -csync (46.9 kHz b)
+[    46.706] (==) FBDEV(0): DPI set to (96, 96)
+[    46.706] (II) Loading sub module "fb"
+[    46.706] (II) LoadModule: "fb"
+[    46.706] (II) Module "fb" already built-in
+[    46.706] (**) FBDEV(0): using shadow framebuffer
+[    46.706] (II) Loading sub module "shadow"
+[    46.706] (II) LoadModule: "shadow"
+[    46.706] (II) Loading /usr/lib/xorg/modules/libshadow.so
+[    46.710] (II) Module shadow: vendor="X.Org Foundation"
+[    46.710] 	compiled for 1.21.1.12, module version = 1.1.0
+[    46.710] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    46.718] (II) FBDEV(0): FBIOBLANK: Invalid argument (Screen blanking not supported by kernel - disabling)
+[    46.726] (==) FBDEV(0): Backing store enabled
+[    46.734] (==) FBDEV(0): DPMS enabled
+[    46.734] (II) Initializing extension Generic Event Extension
+[    46.738] (II) Initializing extension SHAPE
+[    46.742] (II) Initializing extension MIT-SHM
+[    46.742] (II) Initializing extension XInputExtension
+[    46.746] (II) Initializing extension XTEST
+[    46.750] (II) Initializing extension BIG-REQUESTS
+[    46.750] (II) Initializing extension SYNC
+[    46.754] (II) Initializing extension XKEYBOARD
+[    46.758] (II) Initializing extension XC-MISC
+[    46.758] (II) Initializing extension SECURITY
+[    46.762] (II) Initializing extension XFIXES
+[    46.762] (II) Initializing extension RENDER
+[    46.766] (II) Initializing extension RANDR
+[    46.770] (II) Initializing extension COMPOSITE
+[    46.774] (II) Initializing extension DAMAGE
+[    46.774] (II) Initializing extension MIT-SCREEN-SAVER
+[    46.778] (II) Initializing extension DOUBLE-BUFFER
+[    46.778] (II) Initializing extension RECORD
+[    46.782] (II) Initializing extension DPMS
+[    46.782] (II) Initializing extension Present
+[    46.786] (II) Initializing extension DRI3
+[    46.786] (II) Initializing extension X-Resource
+[    46.786] (II) Initializing extension XVideo
+[    46.790] (II) Initializing extension XVideo-MotionCompensation
+[    46.790] (II) Initializing extension GLX
+[    46.794] (II) AIGLX: Screen 0 is not DRI2 capable
+[    46.798] (EE) AIGLX error: dlopen of /usr/lib/xorg/modules/dri/swrast_dri.so failed (Error loading shared library /usr/lib/xorg/modules/dri/swrast_dri.so: No such file or directory)
+[    46.798] (EE) AIGLX error: unable to load driver swrast
+[    46.798] (EE) GLX: could not load software renderer
+[    46.798] (II) GLX: no usable GL providers found for screen 0
+[    46.798] (II) Initializing extension XFree86-VidModeExtension
+[    46.798] (II) Initializing extension XFree86-DGA
+[    46.802] (II) Initializing extension XFree86-DRI
+[    46.802] (II) Initializing extension DRI2
