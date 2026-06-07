@@ -4,18 +4,12 @@
 #include <sys/mount.h>
 #include <sys/stat.h>
 #include <sys/types.h>
-
-void die(const char *msg) {
-    perror(msg);
-    while(1) sleep(1);
-}
-
 int main(void) {
-    if (mount("proc", "/proc", "proc", 0, NULL) < 0) die("mount /proc");
-    if (mount("sysfs", "/sys", "sysfs", 0, NULL) < 0) die("mount /sys");
-    if (mount("devtmpfs", "/dev", "devtmpfs", 0, NULL) < 0) die("mount /dev");
-
+    mount("proc", "/proc", "proc", 0, NULL);
+    mount("sysfs", "/sys", "sysfs", 0, NULL);
+    mount("devtmpfs", "/dev", "devtmpfs", 0, NULL);
+    mount("tmpfs", "/tmp", "tmpfs", 0, NULL);
     execl("/bin/busybox", "init", NULL);
-    die("exec busybox init");
+    execl("/bin/sh", "sh", NULL);
     return 1;
 }
