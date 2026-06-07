@@ -8,4 +8,4 @@ curl
 alpine-minirootfs-3.19.1-x86_64.tar.gz
 alpine-root/
 initramfs/
-*.cpio.gz
+/initramfs.cpio.gz
