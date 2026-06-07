@@ -1,0 +1,11 @@
+*.img
+*.iso
+*.tar.xz
+*.tar.bz2
+linux-6.6.60/
+busybox
+curl
+alpine-minirootfs-3.19.1-x86_64.tar.gz
+alpine-root/
+initramfs/
+*.cpio.gz
